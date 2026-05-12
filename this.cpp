@@ -6,8 +6,8 @@ class buku {
 
     public:
     string setget (string judul) {
-        this->judul = judul;
-        return this->judul;
+        this->judul = judul; //nilai parameter judul disimpan ke dalam variabel anggota judul
+        return this->judul; //nilai variabel anggota judul dikembalikan sebagai hasil fungsi
     }
 };
 
