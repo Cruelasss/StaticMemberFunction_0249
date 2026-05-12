@@ -10,3 +10,8 @@ class buku {
         return this->judul;
     }
 };
+
+int main (){
+    
+
+};
